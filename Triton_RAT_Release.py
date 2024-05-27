@@ -94,7 +94,7 @@ def start(message):
             bot.send_message(message.chat.id, f'You can use /help')
             bot.send_message(message.chat.id, f'Pc name is: {result}')
 def checkpass(message):
-        if message.text == 'MomentoMori':
+        if message.text == 'acd':
             global n
             n = True
             bot.send_message(message.chat.id, 'Logged succesfuly!')
@@ -965,7 +965,7 @@ def help(message):
     else:
         bot.send_message(message.chat.id,textovik)
 def checkpasswd(message):
-    if message.text == 'MomentoMori':
+    if message.text == 'acd':
         global n
         n = True
         bot.send_message(message.chat.id, 'Logged succesfuly!')
