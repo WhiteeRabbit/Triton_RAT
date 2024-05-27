@@ -6,9 +6,8 @@
 
 <div align="center">
   <h1>Triton_Remote_Administration_Tool</h1>
-  ![TRITON_LOGO](https://github.com/WhiteeRabbit/Triton_RAT/assets/143087729/ca2bf2a5-de34-4b1a-b6bf-7af5eea30a0a)
-
-
+<img src="https://i.ibb.co/hVTH6L5/TRITON.png" alt="TRITON" border="0">
+  
   <h2 align="center">Hi 👋, I'm WhiteeRabbit</h2>
   
   
