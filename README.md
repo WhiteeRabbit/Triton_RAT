@@ -37,7 +37,7 @@ That you need only hand (2 optional) , exe file that you will get from pyinstall
 <h3 align="left">Download python!</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-<h3 align="left">Bot Password (when you entering /help or /start) :acd</h3>
+<h1 align="left">Bot Password (when you entering /help or /start) : acd</h1>
 
 
 
