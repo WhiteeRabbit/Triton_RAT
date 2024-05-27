@@ -1,0 +1,14 @@
+telebot
+pyTelegramBotAPI
+pyautogui
+opencv-python
+jsonlib-python3
+pywin32
+pycryptodome
+numpy
+pyaudio
+wave
+browser-cookie3
+pyttsx3
+pycryptodomex
+Crypto
