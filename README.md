@@ -11,18 +11,18 @@
 
 
   <h3>The best rat that works with telegram!</h3>
-
+This tool was created for educational purporses only!
+I'm not responding for your action!
 </div>
-**With this tool you can control with YOUR pc remotly using telegram**
-That you need only hand (2 optional) , exe file that you will get from pyinstaller and telegram account
+
 
 
 
 
 ## :dart: About ##
-This tool was created for educational purporses only!
-I'm not responding for your action!
 
+**With this tool you can control with YOUR pc remotly using telegram**
+That you need only hand (2 optional) , exe file that you will get from pyinstaller and telegram account
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
@@ -38,7 +38,12 @@ I'm not responding for your action!
 ## :checkered_flag: Starting ##
 
 ```bash
+# Register account in telegram
+# Create bot with botfather
+
+
 # Download this project
+
 $ Download pyinstaller from https://github.com/pyinstaller/pyinstaller
 # because most antiviruses will detect as virus pyinstaller from original pip version
 # if you downloaded pyinstaller from pip like pip install pyinstaller
