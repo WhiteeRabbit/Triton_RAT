@@ -5,9 +5,13 @@
 
 <div align="center">
   <h1>Triton_Remote_Administration_Tool</h1>
+  <h2 align="center">Hi 👋, I'm WhiteeRabbit</h2>
+  
+  <h3 align="center">I wrote RAT in python that works with telegram!</h3>
+
+
   <h3>The best rat that works with telegram!</h3>
 
-<h3 align="center">I wrote RAT in python that works with telegram!</h3>
 </div>
 **With this tool you can control with YOUR pc remotly using telegram**
 That you need only hand (2 optional) , exe file that you will get from pyinstaller and telegram account
