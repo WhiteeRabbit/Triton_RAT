@@ -3,9 +3,12 @@
   
 </div>
 
+
 <div align="center">
   <h1>Triton_Remote_Administration_Tool</h1>
+  ![TRITON](https://github.com/WhiteeRabbit/Triton_RAT/assets/143087729/f32e5052-e7cd-4e9a-8556-3c509e9062cd)
   <h2 align="center">Hi 👋, I'm WhiteeRabbit</h2>
+  
   
   <h3 align="center">I wrote RAT in python that works with telegram!</h3>
 
