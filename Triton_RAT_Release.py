@@ -19,7 +19,7 @@ import numpy as np
 import shutil
 from datetime import timezone, datetime, timedelta
 try:
-    bot = telebot.TeleBot('6451048923:AAHbUCjxsAhVSzhtV89U_Wl5Pm2V-YkAfLk')
+    bot = telebot.TeleBot('your_api_token')
 except Exception as e:
     pass
 #################################################################################
