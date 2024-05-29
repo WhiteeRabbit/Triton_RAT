@@ -122,7 +122,7 @@ $ run exe and bot started!
         🧱/wallpaper - change desktop's wallpaper
         ⌨️/keypress 'your key' - in pc's keyboard will pressed this keys 
         ⌨️/keypresstwo 'your key' 'your key' - in pc's keyboard will pressed this keys 
-        ⌨️/keypresstthree 'your key' 'your key' 'your key' - in pc's keyboard will pressed this keys 
+        ⌨️/keypressthree 'your key' 'your key' 'your key' - in pc's keyboard will pressed this keys 
         📃/tasklist - to show tasks
         🧨/taskkill 'your task' - kill entered task
         🕶️/hide - to hide your app
