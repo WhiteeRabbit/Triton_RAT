@@ -2,7 +2,7 @@ telebot
 pyTelegramBotAPI
 pyautogui
 opencv-python
-jsonlib-python3
+simplejson
 pywin32
 pycryptodome
 numpy
