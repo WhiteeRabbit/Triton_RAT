@@ -131,6 +131,18 @@ $ run exe and bot started!
         🕚/shutdown - shutdown pc
         🔄️/restart - restart pc
 
+
+
+## Antivirus check ##
+
+![Снимок экрана (21)](https://github.com/WhiteeRabbit/Triton_RAT/assets/143087729/178186bb-aada-4e7b-bf6f-1e751675d6e4)
+
+
+
+
+
+
+
 ## :memo: License ##
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md) file.
