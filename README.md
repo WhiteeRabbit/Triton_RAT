@@ -27,7 +27,7 @@ I'm not responding for your action!
 
 **With this tool you can control with YOUR pc remotly using telegram**
 That you need only hand (2 optional) , exe file that you will get from pyinstaller and telegram account
-You can also build exe with builder. <h3>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a></h3>
+You can also build exe with builder. Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
@@ -105,7 +105,7 @@ $ run exe and bot started!
 ```
 You can also build exe with gui builder:
 <h4>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a></h4>
-Thanks to [jayjayQy42](https://github.com/jayjayQy42)
+Thanks to <a href="https://github.com/jayjayQy42">jayjayQy42</a>
 
 <h1 align="left">If you want to avoid scanning some antiviruses you can make that⬇️</h1>
 More online scanners and antiviruses also most popular online antivirus scanner virustotal's max allowed file size is 650 MB.
