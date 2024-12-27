@@ -149,7 +149,7 @@ def start(message):
             bot.send_message(message.chat.id, '🔗My GitHub page: [**GitHub - WhiteeRabbit**](https://github.com/WhiteeRabbit)')
 
 def checkpass(message):
-        if message.text == 'MomentoMori':
+        if message.text == 'acd':
             global n
             n = True
             bot.send_message(message.chat.id, 'Logged successfully!')
@@ -1391,7 +1391,7 @@ def help(message):
     else:
         bot.send_message(message.chat.id,textovik)
 def checkpasswd(message):
-    if message.text == 'MomentoMori':
+    if message.text == 'acd':
         global n
         n = True
         bot.send_message(message.chat.id, 'Logged successfully!')
