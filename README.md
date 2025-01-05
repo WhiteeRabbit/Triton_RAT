@@ -73,7 +73,7 @@ $ bot = telebot.TeleBot('your api token')
 # !MAIN STEP! obfuscation will help to deceive antiviruses
 $ For obfuscation we will use my python program which you can find at the link: https://github.com/WhiteeRabbit/fake_file_resizer
 $ https://github.com/WhiteeRabbit/fake_file_resizer
-$ You can also use another obfuscation websites, I wrote about it a little below⬇️
+$ You can also use websites for obfuscation, I wrote about it a little below⬇️
 # We can increase the file size through this appalication so that antiviruses skip rat beacuse of size.
 # For example if you write the size 620 mb , Antivirus Eset will skip that,and it will less detetct.
 # Download fake_file_resizer, then run:
