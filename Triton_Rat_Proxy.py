@@ -138,10 +138,6 @@ n = False
 
 def start(message):
     try:
-        bot_info = bot.get_me()  # Отправка запроса к Telegram API
-        print(f"Бот подключен через прокси: {bot_info.username}")
-    except Exception as e:
-        print(f"Ошибка подключения: {e}")
     if n == False:
         bot.send_message(message.chat.id, "Enter password:")
         bot.register_next_step_handler(message, checkpass)
