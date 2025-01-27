@@ -1,4 +1,5 @@
 #licensed by Shamil :)
+#password is acd
 import telebot
 import os
 import random
