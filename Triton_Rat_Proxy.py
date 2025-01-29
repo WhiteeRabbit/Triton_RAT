@@ -24,6 +24,8 @@ from datetime import datetime, timedelta
 try:
     telebot.apihelper.proxy = {
         'http': 'socks5://68.71.240.210:4145' # if it doesn't work use another proxy
+        # If you are using paid one and you have login and password write this proxy like this
+        # socks5://login:pass@12.11.22.33:8000
     }
 
     bot = telebot.TeleBot('YOUR_API_TOKEN')
