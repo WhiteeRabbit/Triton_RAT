@@ -139,7 +139,6 @@ n = False
 @bot.message_handler(commands=['start'])
 
 def start(message):
-    try:
     if n == False:
         bot.send_message(message.chat.id, "Enter password:")
         bot.register_next_step_handler(message, checkpass)
