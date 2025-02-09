@@ -6,7 +6,7 @@
 
 <div align="center">
   <h1>Triton_Remote_Administration_Tool</h1>
-<img src="https://i.ibb.co/hVTH6L5/TRITON.png" alt="TRITON" border="0">
+<img src="https://i.postimg.cc/SxgBnYpq/TRITON.png" alt="TRITON" border="0">
   
   <h2 align="center">Hi 👋, I'm WhiteeRabbit</h2>
   
