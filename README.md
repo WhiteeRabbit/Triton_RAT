@@ -149,56 +149,55 @@ But if you are not satisfied with the proxy server or the proxy server is closed
        pass
 ## ⚒️ You can use ⚒️ :
     **🛠️ System Commands**
-    - ⚙️ **/start** - Start the program
-    - ⚙️ **/help** - Help with commands
-    - 🔌 **/addstartup** - Add autostart
-    - 📁 **/filepath** - Shows the script's full path
-    - ⌨️ **/keylogger** - Start keylogger
-    - ⛔ **/stopkeylogger** - Stop keylogger
-    - 👟 **/run [filepath]** - Run file
-    - 🧑🏻‍💻 **/users** - Show users on the PC
-    - 🖥️ **/whoami** - Show the name of the PC
-    - 📃 **/tasklist** - Show running tasks
-    - 🧨 **/taskkill [task]** - Kill the entered task
-    - 💤 **/sleep** - Put the PC to sleep
-    - 🕚 **/shutdown** - Shutdown the PC
-    - 🔄 **/restart** - Restart the PC
-    - 💥 **/altf4** - ALT + F4 (google it to find what it means)
-    - 💣 **/cmdbomb** - Opens 10 CMD windows
-    - Ⓜ️ **/msg [type] [title] [text]** - Displays a messagebox
-    */msg types(info; warning; error; question; default or 0)*
-    ** for ex: /msg error testtitle testtext **
-    
-    ## **🔒 Security & Privacy**
-    - 🔑 **/passwords** - Show saved passwords on the PC
-    - 🍪 **/robloxcookie** - Show Roblox cookies
-    - 🧱 **/wallpaper** - Change the desktop wallpaper
-    - 🪦 **/disabletaskmgr** - Disable Task Manager
-    - 📠 **/enabletaskmgr** - Enable Task Manager
-    - ☢️ **/winblocker** - My own winlocker
-    - ☣️ **/winblocker2** - If winblocker doesn't work
-    
-    ## **📱 Device Management**
-    - 📷 **/screenshot** - Take a screenshot
-    - 🎙️ **/mic [time in seconds]** - Record the PC's microphone
-    - 📹 **/webscreen** - Get a screenshot from the camera
-    - 🎦 **/webcam** - Get webcam video
-    - 🎥 **/screenrecord** - Record the screen
-    - 🚫 **/block** - Block user input (mouse and keyboard)
-    - ✅ **/unblock** - Unblock user input (mouse and keyboard)
-    - 🖱️ **/mousemesstart** - Start mouse messing
-    - 🐁 **/mousemesstop** - Stop mouse messing
-    - 🪤 **/mousekill** - Disable the mouse
-    - 🐭 **/mousestop** - Enable the mouse
-    - 🖱️ **/mousemove [x] [y]** - Enter x and y cordinates and mouse's pointer goes there
-    - 🐁 **/mouseclick** - Make click with mouse
-    - 🔊 **/fullvolume** - Set volume to full
-    - 🔉 **/volumeplus** - Increase volume by 10
-    - 🔇 **/volumeminus** - Decrease volume by 10
-    - 🔄️ **/rotate** - Rotate monitor +90 degrees (for exmpl: entering 2 times rotates it 180 degrees)
-    - 🪟 **/maximize** - Maximize active window
-    - 🪟 **/minimize** - Minimize active window
-    
+        - ⚙️ **/start** - Start the program
+        - ⚙️ **/help** - Help with commands
+        - 🔌 **/addstartup** - Add autostart
+        - ⌨️ **/keylogger** - Start keylogger
+        - ⛔ **/stopkeylogger** - Stop keylogger
+        - 👟 **/run [filepath]** - Run file
+        - 🧑🏻‍💻 **/users** - Show users on the PC
+        - 🖥️ **/whoami** - Show the name of the PC
+        - 📃 **/tasklist** - Show running tasks
+        - 🧨 **/taskkill [task]** - Kill the entered task
+        - 💤 **/sleep** - Put the PC to sleep
+        - 🕚 **/shutdown** - Shutdown the PC
+        - 🔄 **/restart** - Restart the PC
+        - 💥 **/altf4** - ALT + F4 (google it to find what it means)
+        - 💣 **/cmdbomb** - Opens 10 CMD windows
+        - Ⓜ️ **/msg [type] [title] [text]** - Displays a messagebox
+        */msg types(info; warning; error; question; default or 0)*
+        ** for ex: /msg error testtitle testtext **
+        
+        ## **🔒 Security & Privacy**
+        - 🔑 **/passwords** - Show saved passwords on the PC
+        - 🧱 **/wallpaper** - Change the desktop wallpaper
+        - 🪦 **/disabletaskmgr** - Disable Task Manager
+        - 📠 **/enabletaskmgr** - Enable Task Manager
+        - ☢️ **/winblocker** - My own winlocker
+        - ☣️ **/winblocker2** - If winblocker doesn't work
+        
+        ## **📱 Device Management**
+        - 📷 **/screenshot** - Take a screenshot
+        - 🎙️ **/mic [time in seconds]** - Record the PC's microphone
+        - 📹 **/webscreen** - Get a screenshot from the camera
+        - 🎦 **/webcam** - Get webcam video
+        - 🎥 **/screenrecord** - Record the screen
+        - 🚫 **/block** - Block user input (mouse and keyboard)
+        - ✅ **/unblock** - Unblock user input (mouse and keyboard)
+        - 🖱️ **/mousemesstart** - Start mouse messing
+        - 🐁 **/mousemesstop** - Stop mouse messing
+        - 🪤 **/mousekill** - Disable the mouse
+        - 🐭 **/mousestop** - Enable the mouse
+        - 🖱️ **/mousemove [x] [y]** - Enter x and y cordinates and mouse's pointer goes there
+        - 🐁 **/mouseclick** - Make left click with mouse
+        - 🖱️ **/mouseright** - Make right click with mouse
+        - 🔊 **/fullvolume** - Set volume to full
+        - 🔉 **/volumeplus** - Increase volume by 10
+        - 🔇 **/volumeminus** - Decrease volume by 10
+        - 🔄️ **/rotate** - Rotate monitor +90 degrees (for exmpl: entering 2 times rotates it 180 degrees)
+        - 🪟 **/maximize** - Maximize active window
+        - 🪟 **/minimize** - Minimize active window
+        
     ## **🌐 Networking**
     - 🛜 **/wifilist** - Show saved Wi-Fi networks
     - 🔐 **/wifipass [accesspoint]** - Show the password of a saved Wi-Fi network
