@@ -19,7 +19,14 @@ This tool was created for educational purporses only!
 I'm not responding for your action!
 </div>
 
+## ⚠️ Disclaimer  
+Triton RAT is a remote administration tool **designed exclusively for managing your own devices**.  
+It **must not** be used for unauthorized access, surveillance, or any illegal activities.  
 
+## 🔹 Responsibility  
+The developer **bears no responsibility** for any misuse of this software.  
+By using this tool, you **accept full responsibility** for ensuring compliance with all applicable laws and regulations.  
+Any unauthorized or malicious use is strictly prohibited.
 
 
 
@@ -59,6 +66,7 @@ https://videos.sproutvideo.com/embed/4d91d6b51c1be6c0c4/77ba198aecabdde5
 ## :checkered_flag: Starting ##
 
 ```bash
+# PLEASE READ THE DISCLAIMER BEFORE FOLLOWING THESE STEPS
 # Register account in telegram
 # Create bot with botfather
 
