@@ -7,7 +7,6 @@ pywin32
 numpy
 pyaudio
 wave
-browser-cookie3
 pyttsx3
 pycryptodomex
 pynput
