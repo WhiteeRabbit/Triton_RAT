@@ -247,9 +247,10 @@ But if you are not satisfied with the proxy server or the proxy server is closed
 ## Antivirus check (with help of second obfuscation(minifying) method (i wrote about that⬆️)) ##
 ![Снимок экрана (26)](https://github.com/user-attachments/assets/1e5020f4-207a-4125-81be-a98371923f02)
 
+
 ## ⚠️ Disclaimer  
-Triton RAT is a remote administration tool designed **exclusively for managing your own devices**.  
-It is **not intended** for unauthorized access, surveillance, or any illegal activities.  
+Triton RAT is a remote administration tool **designed exclusively for managing your own devices**.  
+It **must not** be used for unauthorized access, surveillance, or any illegal activities.  
 
 ## 🔹 Responsibility  
 The developer **bears no responsibility** for any misuse of this software.  
