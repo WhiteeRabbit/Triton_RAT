@@ -160,6 +160,7 @@ But if you are not satisfied with the proxy server or the proxy server is closed
     - ⚙️ **/start** - Start the program
     - ⚙️ **/help** - Help with commands
     - 🔌 **/addstartup** - Add autostart
+    - 🔌 **/deletestartup** - Delete file from autostart
     - ⌨️ **/keylogger** - Start keylogger
     - ⛔ **/stopkeylogger** - Stop keylogger
     - 👟 **/run [filepath]** - Run file
@@ -202,7 +203,6 @@ But if you are not satisfied with the proxy server or the proxy server is closed
     - 🔊 **/fullvolume** - Set volume to full
     - 🔉 **/volumeplus** - Increase volume by 10
     - 🔇 **/volumeminus** - Decrease volume by 10
-    - 🔄️ **/rotate** - Rotate monitor +90 degrees (for exmpl: entering 2 times rotates it 180 degrees)
     - 🪟 **/maximize** - Maximize active window
     - 🪟 **/minimize** - Minimize active window
         
@@ -269,7 +269,7 @@ Any unauthorized or malicious use is strictly prohibited.
 ## Triton_Rat V2 update features: ##
 - **New interface and desing**
 - **Added more than 10 new functions(also keylogger,metadata ,pc info and etc...)**
-- **Added: minimaze ,maximize ,rotate monitor ,metadata ,keylogger, block/unblock user input ,better information about pc (from bios to battery) and etc... ☺️**
+- **Added: minimaze ,maximize ,add file to autostart,metadata ,keylogger, block/unblock user input ,better information about pc (from bios to battery) and etc... ☺️**
 - **Added proxy version**
 - **Fixed bugs**
 
