@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2024 Aliyev Shamil
+Copyright (c) 2024 White__RABBIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
