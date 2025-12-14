@@ -55,13 +55,7 @@ You can also build exe with builder. Triton RAT GUI Builder: <a href="https://gi
 
 
 <h3>First link:</h3>
-
-https://videos.sproutvideo.com/embed/4d91d6b51c1be6c0c4/77ba198aecabdde5
-
-<h3>Second link:</h3>
-
-<p>https://d3v55qvjb2v012.cloudfront.net/gHeE/2025/01/31/07/02/cTVwinnfmXR/sc.mp4?srcid=cTVwinnfmXR&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9nSGVFLzIwMjUvMDEvMzEvMDcvMDIvY1RWd2lubmZtWFIvc2MubXA0P3NyY2lkPWNUVndpbm5mbVhSIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzM4MzkzNjg5fX19XX0_&Signature=EYlS7pZBhDG1DohS4-80RZ8vtUrZB-RvElfDQdbUlECmxPfuQs2ak-UD3NIYKSUg1MHwhzJV-Y5N5bhOPVjdUlbDRXXYmoQrFGkXUDfmTUg4ZzyB-5~BC9RiOwTWzao3jPgWPrIXk9bP9ybV1TV6l9P73V8aQEbKj-jW5zU5pL8_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ</p>
-
+https://www.mediafire.com/file/z6fmgon6ixsoc0q/Triton.mp4/file
 
 ## :checkered_flag: Starting ##
 
