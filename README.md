@@ -40,8 +40,6 @@ That you need only hand (2 optional) , exe file that you will get from pyinstall
 
 You can also build exe with builder. Triton RAT GUI Builder: <a href="https://github.com/jayjayQy42/Triton_RAT-gui">Triton_RAT-gui</a>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
 <p align="left">
 </p>
 
